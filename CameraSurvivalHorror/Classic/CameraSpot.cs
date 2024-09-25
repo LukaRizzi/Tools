@@ -11,7 +11,6 @@ namespace LukaExtras.SurvivalHorror.ClassicCamera
 
         public void TriggerPerspective()
         {
-            Debug.Log(Camera.main.transform.position);
             Camera.main.transform.position = transform.position;
             Camera.main.transform.rotation = transform.rotation;
 

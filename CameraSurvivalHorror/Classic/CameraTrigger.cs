@@ -10,7 +10,6 @@ namespace LukaExtras.SurvivalHorror.ClassicCamera
 
         private void OnTriggerEnter(Collider other)
         {
-            Debug.Log("hola " + other.tag);
             if (other.CompareTag("Player"))
             {
                 CameraPositionManager.AddValidPosition(spot);
